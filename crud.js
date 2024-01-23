@@ -9,13 +9,13 @@ let todos = [];
 
 // An eventlistener for a form submission
 form.addEventListener("submit", (e) => {
-  e.preventDefault; 
+  e.preventDefault(); 
 
 // Creating a new object 
   const todo = {
     text: input.value, 
     checked: false, 
-    id: new Data().getTime(),
+    id: new Date().getTime(),
   });
 
 // Adding the new todo to the array 
@@ -80,7 +80,7 @@ const displayTodos = () => {
 // Appending elements to the .task container
     taskEl.appendChild(inputEl); 
     taskEl.appendChild(textEl);
-    taskEl.appendChils(delButton);
+    taskEl.appendChild(delButton);
     tasksContainer.appendChild(taskEl);
   });
 };
