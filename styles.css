@@ -26,4 +26,9 @@ button {
   flex-direction: column; 
 }
 
+form {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
 
