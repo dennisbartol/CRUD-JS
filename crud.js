@@ -52,8 +52,14 @@ const displayTodos = () => {
     inputEl.type = "checkbox"; 
     textEl.innerHTML = todo.text; 
     delButton.innerHTML = "Delete";
-    
-  }
+
+// Event listener for the delete button 
+    delButton.addEventListener("click", () => {
+// Filtering out the clicked todo (From the array)
+    todos = todos.filter((t) => t.id !== todo.id);
+// Displaying an updated todo list 
+    displayTodos();
+  });
   
 }
 
