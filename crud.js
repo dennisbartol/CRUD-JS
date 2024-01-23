@@ -60,7 +60,16 @@ const displayTodos = () => {
 // Displaying an updated todo list 
     displayTodos();
   });
-  
+
+// Event listener - For the checkbox 
+   inputEl.addEventListener("change", (e) => {
+// Updating the 'checked' property of the selected todo item
+   todo.checked = e.target.checked;   
+   }     
+
+
+
+                            
 }
 
 
