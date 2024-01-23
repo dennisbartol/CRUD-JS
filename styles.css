@@ -31,6 +31,7 @@ button {
   min-height: 600px; 
   height: auto; 
   display: flex; 
+  padding: 1.1rem;
   gap: 1rem; /* Add distance between form input and add button */
   flex-direction: column; 
 }
