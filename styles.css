@@ -91,10 +91,11 @@ form button {
   border-radius: 50%; 
   outline: none; 
   appearance: none; 
-
-  
 }
 
+.task.done input[type="checkbox"] + .text {
+  text-decoration: line-through;
+}
 
 .task .delete {
   padding: 0.5rem 1rem;
