@@ -18,7 +18,7 @@ button {
   font-size: 1vw; 
   color: #F8F8FF;
   font-family: inherit; 
-  font-size: 2em; 
+  font-size: 2vw; 
   border-radius: 6px; 
   border: 0; /* Remove the visual pushed effect */
 }
