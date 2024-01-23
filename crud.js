@@ -26,7 +26,7 @@ form.addEventListener("submuit", (e) => {
 
   // Displaying the updated todos list
   displayTodos();
-  );
+});
 
 
 // Display todos function 
