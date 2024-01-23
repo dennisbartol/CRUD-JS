@@ -16,6 +16,10 @@ body {
 
 button {
   font-size: 1vw; 
+  color: #F8F8FF;
+  font-family: inherit; 
+  font-size: 2em; 
+  border-radius: 6px; 
 }
 
 
