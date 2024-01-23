@@ -44,6 +44,10 @@ form input {
   /* outline: none;  */
 }
 
+form input::placeholder {
+  color: #F8F8FF;
+}
+
 form button {
   width: 100px;
   background-color: #eeaa74;
