@@ -53,6 +53,7 @@ const displayTodos = () => {
     textEl.innerHTML = todo.text; 
     delButton.innerHTML = "Delete";
 
+
 // Event listener for the delete button 
     delButton.addEventListener("click", () => {
 // Filtering out the clicked todo (From the array)
@@ -61,16 +62,26 @@ const displayTodos = () => {
     displayTodos();
   });
 
+    
 // Event listener - For the checkbox 
    inputEl.addEventListener("change", (e) => {
 // Updating the 'checked' property of the selected todo item
-   todo.checked = e.target.checked;   
-   }     
+   todo.checked = e.target.checked; 
 
+// Adding / Removing the "done" class - Based on the 'checked' state
+   if (todo.checked) {
+     taskEl.classList.add("done");
+   }  
+   else {
+    taskEl.classList.remove("done"); 
+   }                       
+});
 
-
-                            
-}
-
-
+// Appending elements to the .task container
+    taskEl.appendChild(inputEl); 
+    taskEl.appendChild(textEl);
+    taskEl.appendChils(delButton);
+    tasksContainer.appendChild(taskEl);
+  });
+};
                       
