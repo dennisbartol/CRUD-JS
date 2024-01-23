@@ -29,6 +29,33 @@ form.addEventListener("submuit", (e) => {
   ]);
 
 
+// Display todos function 
+const displayTodos = () => {
+// Clearing existing content 
+  tasksContainer.innerHTML = "" ;
+
+// Looping through each todo inside the array, through an arrow function
+  todos.forEach((todo) => {
+// Creating HTML elements for every single todo
+    const taskEl = document.createElement("div");
+    const inputEl = document.createElement("input");
+    const textEl = document.createElement("p");
+    const delButton = document.createElement("button");
+
+// Adding classes to these elements for styling 
+    taskEl.classList.add("task");
+    inputEl.classList.add("checkbox"); 
+    delButton.classList.add("delete");
+    textEl.classList.add("text");
+
+// Setting up attributes and content for the HTML elements 
+    inputEl.type = "checkbox"; 
+    textEl.innerHTML = todo.text; 
+    delButton.innerHTML = "Delete";
+    
+  }
+  
+}
 
 
                       
