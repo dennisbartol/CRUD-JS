@@ -16,7 +16,7 @@ form.addEventListener("submuit", (e) => {
     text: input.value, 
     checked: false, 
     id: new Data().getTime(),
-  };
+  });
 
 // Adding the new todo to the array 
   todos.push(todo);
