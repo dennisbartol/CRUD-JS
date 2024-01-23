@@ -49,6 +49,10 @@ form button {
   background-color: #eeaa74;
 }
 
+.tasks {
+  display: flex; 
+  flex-direction: column; 
+}
 
 
 
