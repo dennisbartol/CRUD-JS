@@ -8,7 +8,7 @@ const tasksContainer = document.querySelector(".tasks");
 let todos = [];
 
 // An eventlistener for a form submission
-form.addEventListener("submuit", (e) => {
+form.addEventListener("submit", (e) => {
   e.preventDefault; 
 
 // Creating a new object 
