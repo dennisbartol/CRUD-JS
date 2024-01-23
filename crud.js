@@ -16,7 +16,7 @@ form.addEventListener("submit", (e) => {
     text: input.value, 
     checked: false, 
     id: new Date().getTime(),
-  });
+  };
 
 // Adding the new todo to the array 
   todos.push(todo);
