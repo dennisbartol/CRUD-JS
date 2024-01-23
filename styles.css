@@ -82,6 +82,17 @@ form button {
 
 
 
+.task .checkbox { 
+  width: 1.1em; 
+  height: 1.1em; 
+  border: 2px solid hsl(0, 60%, 55%);
+  border-radius: 50%; 
+  outline: none; 
+  appearance: none; 
+  
+}
+
+
 .task .delete {
   padding: 0.5rem 1rem;
   color: #F8F8FF;
