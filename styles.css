@@ -59,6 +59,14 @@ form button {
 .tasks {
   display: flex; 
   flex-direction: column; 
+  gap: 1rem;
+}
+
+.task {
+  color: #F8F8FF;
+  display: flex; 
+  align-items: center;
+  gap: 1rem;
 }
 
 
