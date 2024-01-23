@@ -36,11 +36,20 @@ form input {
   width: 90%;
   padding: 0.5rem;
   color: #F8F8FF;
-  background-color: #636b97;
+  background-color: coral;
   border-radius: 6px; 
   font-size: 2vw;
   font-family: inherit;
   border: 0;
   /* outline: none;  */
 }
+
+form button {
+  width: 100px;
+  background-color: #eeaa74;
+}
+
+
+
+
 
