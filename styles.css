@@ -118,6 +118,7 @@ form button {
 .task.done input[type="checkbox"] + .text {
   text-decoration: line-through;
   /* color: hsl(0, 60%, 55%); */
+  color: coral;
   transition: 0.4s;
 }
 
