@@ -98,7 +98,7 @@ form button {
 }
 
 .task .delete {
-  padding: 0.5rem 1rem;
+  padding: 8px 10px;
   color: #F8F8FF;
   background-color: hsl(0, 60%, 55%);
   margin-left: auto;
