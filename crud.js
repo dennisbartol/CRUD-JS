@@ -11,6 +11,12 @@ let todos = [];
 form.addEventListener("submit", (e) => {
   e.preventDefault(); 
 
+// Check if the input value is empty
+if (input.value.trim() === "") {
+// If empty, return without adding a task
+return;
+}
+
 // Creating a new object 
   const todo = {
     text: input.value, 
