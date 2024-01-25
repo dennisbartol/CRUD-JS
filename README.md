@@ -6,7 +6,6 @@
 -Delete the item, if the need arises
 
 Potential: 
--Mark an item as complete
-
+<i>-Mark an item as complete</i>
 
 <i>Under development</i>
