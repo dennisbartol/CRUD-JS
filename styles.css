@@ -16,7 +16,7 @@ h2 {
   font-family: inherit; 
   color: #F8F8FF;
   text-align: center;
-  text-shadow: -4px 0px 15px #fff;
+  /* text-shadow: -4px 0px 15px #fff; */
   background-color: coral;
   border-radius: 6px; 
   line-height: 1.25em;
