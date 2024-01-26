@@ -134,6 +134,7 @@ form button {
   font-size: 1em;
   background-color: hsl(0, 60%, 55%);
   margin-left: auto;
+  border: 1px solid #F8F8FF;
 }
 
 
