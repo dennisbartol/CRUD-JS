@@ -13,13 +13,16 @@ body {
 }
 
 h2 { 
+  display: flex;
+  align-items: center; 
+  justify-content: center;
   font-family: inherit; 
   color: #F8F8FF;
   text-align: center;
   /* text-shadow: -4px 0px 15px #fff; */
   background-color: coral;
   border-radius: 6px; 
-  height: 75px;
+  height: 65px;
   border: 1px solid #F8F8FF;
 }
 
