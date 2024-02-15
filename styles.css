@@ -154,8 +154,5 @@ form button {
   cursor: pointer;
 }
 
-button[type="submit"] {
-    cursor: pointer;
-}
 
 
