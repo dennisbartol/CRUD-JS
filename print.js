@@ -10,7 +10,7 @@ const printTodoList = () => {
 
 
  printWindow.document.write(
-  <html>
+   <html>
   
     <head>
       <style>
@@ -24,7 +24,9 @@ const printTodoList = () => {
         ${printContent }
     </body>
       
-  </html>
+   </html>
  );
-  
-}
+
+  printWindow.document.close();
+  printWindow.print();
+};
