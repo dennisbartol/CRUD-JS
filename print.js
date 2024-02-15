@@ -30,3 +30,10 @@ const printTodoList = () => {
   printWindow.document.close();
   printWindow.print();
 };
+
+
+const printButton = document.createElement("button"); 
+printButton.innerHTML = "Print your To-Do List"; 
+printButton.addEventListener("click", printToDoList);
+
+document.body.appendChild(printButton); 
