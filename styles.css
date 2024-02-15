@@ -10,7 +10,6 @@ body {
   display: grid; 
   place-items: center; 
   font-family: "Noto Sans", sans-serif;
-  cursor: pointer; 
 }
 
 h2 { 
