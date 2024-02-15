@@ -9,5 +9,22 @@ const printTodoList = () => {
   printContent += '</ul>';
 
 
+ printWindow.document.write(
+  <html>
+  
+    <head>
+      <style>
+        body { font-family: arial, san-serif; }
+        ul { list-style-type: square; padding: 2px; }
+        li { margin-bottom: 6px }; 
+      </style>
+    </head>
 
+    <body> 
+        ${printContent }
+    </body>
+      
+  </html>
+ );
+  
 }
